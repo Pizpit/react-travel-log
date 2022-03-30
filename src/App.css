@@ -1,0 +1,103 @@
+.App {
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 80px;
+}
+
+.App-logo {
+	height: 24px;
+	pointer-events: none;
+}
+
+.App-header {
+	background-color: #f55a5a;
+	height: 55px;
+	width: 100%;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	color: white;
+	position: fixed;
+	top: 0;
+}
+
+.Card {
+	max-width: 430px;
+	max-height: 168px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.Card-body > h1 {
+	font-size: 25px;
+	margin: 10px 0 23px 0;
+}
+.Card-body > h3 {
+	font-size: 10px;
+}
+.Card-body > p {
+	margin: 0px;
+	line-height: 1.5;
+}
+
+.Card-header {
+	margin: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.Card-header > p {
+	letter-spacing: 3px;
+	margin: 0px;
+	margin-right: 9px;
+	text-transform: uppercase;
+}
+.Card-header > a {
+	color: #918e9b;
+}
+
+.Card-logo {
+	margin-right: 4px;
+}
+
+.Card-img {
+	width: 125px;
+	height: 168px;
+	object-fit: cover;
+	border: none;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 900px) {
+	.App {
+		padding-top: 65px;
+		font-size: 14px;
+	}
+
+	.cards-list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 800px;
+	}
+
+	.Card-img {
+		width: 160px;
+		height: 240px;
+		border-radius: 10px;
+	}
+	.Card {
+		max-width: 800px;
+		max-height: 240px;
+		width: 100%;
+		margin: 10px;
+	}
+}
