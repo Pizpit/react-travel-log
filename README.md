@@ -23,7 +23,8 @@
 
 ### Built with
 
-This project was bootstrapped with .
+- React
+- This project was bootstrapped with create-react-app.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
