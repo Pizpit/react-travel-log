@@ -31,7 +31,7 @@
 
 ### What I learned
 
-I mainly learned how to fully deploy and host a website on GitHub Pages. Most of the HTML and CSS was review but I learned how to fully deploy with create-react-app.
+With this project the goal was to learn how to pass props in React to different components and then display that information. Soon I will  Most of the HTML and CSS was review but I learned how to fully deploy with create-react-app.
 
 ### Useful resources
 
